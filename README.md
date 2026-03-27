@@ -181,3 +181,4 @@ matplotlib, tqdm, pillow
 - BSP structural features (leaf membership, leaf volume, same-leaf indicator)
 - Graph neural network heuristic that learns directly from nav graph topology without hand-crafted features
 - Generalisation to other BSP games like Quake 2 or Doom
+- Deploying the model as a agent to actually move a character in game through pyquake
