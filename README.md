@@ -18,12 +18,6 @@ In the online phase, the trained model is plugged into A* as a multiplicative co
 
 ## Key results
 
-| Method | Mean nodes expanded | Path cost ratio | Notes |
-|---|---|---|---|
-| Dijkstra | ~110 | 1.000 | Optimal reference |
-| Euclidean A* | ~110 | 1.000 | Simple baseline |
-| MLP A* | ~63 | 1.020 | 42.4% fewer expansions |
-| XGBoost A* | ~64 | 1.020 | 42.2% fewer expansions |
 
 Benchmarked across 38 maps with 1,000 queries each (38,000 total queries). The train/val/test split is by episode so the model never sees episode 4 or deathmatch maps during training, yet still achieves around 40% reduction on those unseen maps.
 
