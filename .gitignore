@@ -1,0 +1,14 @@
+# Ignore game folder
+game/
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# PyCharm
+.idea/
