@@ -261,5 +261,4 @@ matplotlib, tqdm, pillow
 
 - BSP structural features (leaf membership, leaf volume, same-leaf indicator)
 - Graph neural network heuristic that learns directly from nav graph topology without hand-crafted features
-- Batch inference to amortise per-node MLP overhead by predicting heuristic values for the whole open list at once
-- Generalisation to other BSP games like Quake 2, Doom, or Half-Life
+- Getting an agent to actually play out the paths through PyQuake
